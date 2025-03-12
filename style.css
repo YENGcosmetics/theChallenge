@@ -762,7 +762,7 @@ nav ul li a {
     background-color: white;
     margin-left: 100px;
     margin-right: 100px;
-    border-radius: 0px;
+    border-radius: 10px;
     align-items: center;
 }
 
