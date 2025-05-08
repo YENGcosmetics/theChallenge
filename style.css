@@ -845,21 +845,28 @@ nav ul li a {
         margin-right: 10px;
     }
 
+    .foto1-content {
+        flex-direction: column;
+        aspect-ratio: auto;
+        padding: 15px;
+    }
+
+    .foto1-left h2,
+    .foto1-right h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .foto1-left img,
+    .foto1-right img {
+        max-width: 100%;
+        margin: 10px auto;
+    }
+
     .img-basura img,
     .img-salud img {
         margin-left: auto;
         margin-right: auto;
-    }
-
-    .img-alumnas {
-        flex-direction: column;
-        gap: 20px;
-        margin-right: 0;
-    }
-
-    .somos-content {
-        flex-direction: column;
-        aspect-ratio: auto;
     }
 
     .prototipos {
