@@ -14,7 +14,7 @@ body {
     box-sizing: border-box;
     background: url('fondo1.webp') no-repeat center center fixed;
     background-size: cover;
-    overflow-x: auto;
+    overflow-x: hidden;
 }
 
 /* Header */
@@ -832,4 +832,42 @@ nav ul li a {
     height: 100%;
     border: none;
     border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .contenedor,
+    .contenedor3,
+    .contenedor4,
+    .title,
+    .title2,
+    .gancho {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .img-basura img,
+    .img-salud img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .img-alumnas {
+        flex-direction: column;
+        gap: 20px;
+        margin-right: 0;
+    }
+
+    .somos-content {
+        flex-direction: column;
+        aspect-ratio: auto;
+    }
+
+    .prototipos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .prototipos2 {
+        flex-direction: column;
+        gap: 20px;
+    }
 }
